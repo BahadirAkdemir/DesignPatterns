@@ -13,7 +13,6 @@ namespace Strategy
             CustomerManager customerManager = new CustomerManager();
             customerManager.creditCalculatorBase = new After2010CreditCalculator();
             customerManager.SaveCredit();
-
             Console.ReadLine();
         }
     }
